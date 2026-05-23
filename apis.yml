@@ -1,0 +1,263 @@
+aid: sirius-xm-holdings
+name: Sirius XM Holdings
+description: >-
+  Sirius XM Holdings Inc. (NASDAQ: SIRI) is the leading audio entertainment company
+  in North America, operating a portfolio of subscription, ad-supported streaming,
+  podcast, and advertising-technology businesses. Its flagship satellite radio service
+  SiriusXM serves roughly 33 million paid subscribers, while Pandora delivers
+  ad-supported and premium music streaming to approximately 40 million active users.
+  The portfolio also includes podcast network Simplecast, programmatic audio adtech
+  platform AdsWizz, audio sales arm SiriusXM Media, and Pandora AMP. SiriusXM
+  Holdings was split off from Liberty Media in September 2024, becoming an
+  independent publicly traded company. This holdings-level index points to the
+  operating subsidiaries; the consolidated developer surface is profiled in the
+  `sirius-xm` repository, with no separate corporate developer program at the
+  holding-company level.
+type: Index
+position: Holding Company
+access: Corporate
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Audio
+  - Audio Streaming
+  - Satellite Radio
+  - Podcasts
+  - Advertising Technology
+  - Music
+  - Entertainment
+  - Holding Company
+  - Public Company
+x-fortune: Fortune 500
+x-ticker: SIRI
+x-exchange: NASDAQ
+x-headquarters: New York, NY
+x-parent-spinoff: Liberty Media (split-off completed September 2024)
+created: '2026-05-23'
+modified: '2026-05-23'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/sirius-xm-holdings/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+
+apis: []
+
+common:
+  - type: Website
+    url: https://corporate.siriusxm.com/
+  - type: ConsumerSite
+    url: https://www.siriusxm.com/
+  - type: InvestorRelations
+    url: https://investor.siriusxm.com/
+  - type: PressReleases
+    url: https://investor.siriusxm.com/news-events/press-releases
+  - type: SECFilings
+    url: https://investor.siriusxm.com/financials/sec-filings/
+  - type: Careers
+    url: https://careers.siriusxm.com/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/siriusxm
+  - type: GitHubOrganization
+    url: https://github.com/SiriusXM
+  - type: SubsidiaryIndex
+    url: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/apis.yml
+  - type: TermsOfService
+    url: https://www.siriusxm.com/terms
+  - type: PrivacyPolicy
+    url: https://www.siriusxm.com/privacy-policy
+  - name: Properties
+    type: Properties
+    data:
+      - name: SiriusXM
+        url: https://www.siriusxm.com/
+        description: >-
+          Flagship subscription satellite radio and streaming service delivering
+          music, sports, news, talk, comedy, and podcasts to roughly 33 million
+          paid subscribers across North America. Distributed in connected vehicles
+          via OEM partnerships, on the SiriusXM app, on smart speakers, and via
+          the web player.
+        features:
+          - Satellite Radio
+          - Streaming Audio
+          - Connected Vehicle Distribution
+          - Sports Play-by-Play
+          - News and Talk
+          - Original Programming
+          - Specialty Channels
+      - name: Pandora
+        url: https://www.pandora.com/
+        description: >-
+          Ad-supported and premium music streaming service serving approximately
+          40 million active users. Offers personalized stations, on-demand
+          listening (Pandora Plus / Premium tiers), and podcasts. Operates the
+          Pandora Developer Center, a GraphQL-based partner API surface.
+        features:
+          - Ad-Supported Streaming
+          - Premium Subscription Tier
+          - Personalized Stations
+          - Music Genome Project
+          - Pandora Developer API (GraphQL)
+          - Podcast Listening
+        properties:
+          - type: DeveloperPortal
+            url: https://developer.pandora.com/
+      - name: SiriusXM Media
+        url: https://www.siriusxmmedia.com/
+        description: >-
+          Combined audio advertising sales organization spanning SiriusXM,
+          Pandora, AdsWizz, Simplecast, and Stitcher Ads. Acts as the
+          single front door for advertisers buying across the SiriusXM
+          Holdings audio inventory.
+        features:
+          - Ad Sales
+          - Cross-Portfolio Inventory
+          - Audio Campaigns
+          - Brand Sponsorships
+      - name: AdsWizz
+        url: https://www.adswizz.com/
+        description: >-
+          Programmatic digital-audio advertising technology company.
+          Provides server-side and client-side ad insertion, SSP (AudioMax),
+          DSP (AudioMatic), self-serve buying (AudioGO), campaign management
+          (AudioServe), measurement and attribution, and mobile/web SDKs.
+          Operates a documented public Domain API and SDK suite.
+        features:
+          - Programmatic Audio
+          - Ad Insertion
+          - VAST Ad Tech
+          - AudioMax SSP
+          - AudioMatic DSP
+          - AudioGO Self-Serve
+          - iOS, Android, Web SDKs
+        properties:
+          - type: APIDocumentation
+            url: https://docs.adswizz.com/domain-api/v8/
+          - type: SDKDocumentation
+            url: https://docs.sdk.adswizz.com/
+          - type: GitHubOrganization
+            url: https://github.com/adswizz
+      - name: Simplecast
+        url: https://www.simplecast.com/
+        description: >-
+          Podcast hosting, distribution, and analytics platform. Provides
+          publishers a CMS and a public REST API for managing shows, episodes,
+          and analytics. Authentication is API token via bearer header.
+        features:
+          - Podcast Hosting
+          - Episode Management
+          - Distribution
+          - Analytics
+          - Public REST API
+        properties:
+          - type: APIDocumentation
+            url: https://apidocs.simplecast.com/
+          - type: APIBaseURL
+            url: https://api.simplecast.com/
+      - name: Pandora AMP
+        url: https://amp.pandora.com/
+        description: >-
+          Artist Marketing Platform giving artists and labels access to
+          listener data, audio messaging (AMPcast), featured-track promotion,
+          and merch integrations across Pandora's listener base.
+        features:
+          - Artist Analytics
+          - Audio Messaging
+          - Featured Track Promotion
+          - Merch Integration
+      - name: SiriusXM Connected Vehicle Services
+        url: https://www.siriusxmconnectedvehicles.com/
+        description: >-
+          B2B platform supplying telematics, infotainment, safety, security,
+          and over-the-air services to automaker OEM partners. Distinct from
+          the consumer satellite-radio subscription business.
+        features:
+          - Connected Car Telematics
+          - OEM Partnerships
+          - In-Vehicle Infotainment
+          - Safety and Security Services
+      - name: SiriusXM Marine
+        url: https://www.siriusxm.com/marine
+        description: >-
+          Satellite-delivered weather, fishing, and entertainment data for
+          recreational and commercial marine users.
+        features:
+          - Marine Weather
+          - Fishing Data
+          - Satellite Audio
+      - name: SiriusXM Aviation
+        url: https://www.siriusxm.com/aviation
+        description: >-
+          Satellite-delivered weather and audio entertainment data for
+          general aviation cockpits via compatible avionics.
+        features:
+          - Aviation Weather
+          - Cockpit Audio
+          - Avionics Integration
+      - name: SiriusXM for Business
+        url: https://business.siriusxm.com/
+        description: >-
+          Commercial music and audio service for restaurants, retail, fitness,
+          and other commercial venues. Sister service to Pandora for Business
+          and Pandora CloudCover.
+        features:
+          - Commercial Music
+          - Background Audio
+          - Multi-Location Management
+      - name: Pandora for Business / CloudCover
+        url: https://business.pandora.com/
+        description: >-
+          Commercial background-music service for businesses, built on the
+          Pandora streaming platform via the CloudCover acquisition.
+        features:
+          - Background Music
+          - Commercial Licensing
+          - Multi-Location Streaming
+
+  - name: ScaleMetrics
+    type: ScaleMetrics
+    data:
+      - metric: SiriusXM paid subscribers
+        value: '~33 million'
+        source: https://investor.siriusxm.com/
+      - metric: Pandora active users
+        value: '~40 million'
+        source: https://investor.siriusxm.com/
+      - metric: Combined monthly listeners
+        value: '~255 million'
+        source: https://investor.siriusxm.com/
+      - metric: 2025 Total Revenue
+        value: 'USD 8.558 billion'
+        source: https://investor.siriusxm.com/
+      - metric: 2025 Adjusted EBITDA
+        value: 'USD 2.665 billion'
+        source: https://investor.siriusxm.com/
+      - metric: 2025 Free Cash Flow
+        value: 'USD 1.256 billion'
+        source: https://investor.siriusxm.com/
+
+  - name: CorporateEvents
+    type: CorporateEvents
+    data:
+      - event: Liberty Media split-off completed
+        date: '2024-09'
+        note: >-
+          SiriusXM Holdings emerged as an independent publicly traded
+          company (NASDAQ: SIRI) following the Liberty Media tracking-stock
+          split-off transaction.
+      - event: Stitcher / Stitcher Ads divestiture
+        date: '2024'
+        note: >-
+          The Stitcher podcast distribution and ad-sales business, acquired
+          in 2020, was divested in 2024 as the company refocused podcast
+          operations around Simplecast and AdsWizz.
+      - event: Simplecast acquisition
+        date: '2020'
+        note: SiriusXM acquired the podcast hosting platform Simplecast.
+      - event: AdsWizz acquisition
+        date: '2018'
+        note: SiriusXM acquired the AdsWizz programmatic audio adtech platform.
+      - event: Pandora acquisition
+        date: '2019-02'
+        note: SiriusXM completed its acquisition of Pandora Media.
+
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com
