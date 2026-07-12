@@ -41,6 +41,10 @@ specificationVersion: '0.19'
 apis: []
 
 common:
+  - type: DomainSecurity
+    url: security/sirius-xm-holdings-domain-security.yml
+  - url: https://www.siriusxm.com/blog/feed
+    type: Blog
   - type: Website
     url: https://corporate.siriusxm.com/
   - type: ConsumerSite
