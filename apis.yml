@@ -14,9 +14,20 @@ description: >-
   `sirius-xm` repository, with no separate corporate developer program at the
   holding-company level.
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Holding Company
 access: Corporate
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sirius-xm-holdings.png
 tags:
   - Audio
   - Audio Streaming
